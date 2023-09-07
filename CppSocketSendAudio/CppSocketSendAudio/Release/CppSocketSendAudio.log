@@ -1,0 +1,11 @@
+﻿  CppSocketSendAudio.cpp
+E:\project_audio\CppSocketSendAudio\CppSocketSendAudio\CppSocketSendAudio.cpp(204,42): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project_audio\CppSocketSendAudio\CppSocketSendAudio\CppSocketSendAudio.cpp(204,31): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+E:\project_audio\CppSocketSendAudio\CppSocketSendAudio\CppSocketSendAudio.cpp(217,37): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project_audio\CppSocketSendAudio\CppSocketSendAudio\CppSocketSendAudio.cpp(294,37): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project_audio\CppSocketSendAudio\CppSocketSendAudio\CppSocketSendAudio.cpp(333,81): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 226 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  CppSocketSendAudio.vcxproj -> E:\project_audio\CppSocketSendAudio\Release\CppSocketSendAudio.exe
