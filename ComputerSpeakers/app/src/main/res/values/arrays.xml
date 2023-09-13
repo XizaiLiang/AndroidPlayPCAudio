@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="audio_size">
+        <item>8k</item>
+        <item>16k</item>
+        <item>32k</item>
+        <item>48k</item>
+        <item>64k</item>
+        <item>128k</item>
+    </string-array>
+    <string-array name="audio_size_values">
+        <item>8000</item>
+        <item>16000</item>
+        <item>32000</item>
+        <item>48000</item>
+        <item>64000</item>
+        <item>128000</item>
+    </string-array>
+    
+    
+    <string-array name="audio_channels">
+        <item>1通道</item>
+        <item>2通道</item>
+    </string-array>
+    <string-array name="audio_channels_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

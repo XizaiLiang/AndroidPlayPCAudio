@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <PreferenceCategory
+        android:title="@string/pre_getting_started"
+        android:key="category_help_preferences"
+        app:iconSpaceReserved="false">
+        <PreferenceScreen
+            app:iconSpaceReserved="false"
+            android:title="@string/pre_setup_information"
+            android:summary="@string/pre_setup_information_text">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://baidu.com" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pre_connection_configuration"
+        android:key="category_comm_preferences"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:title="@string/pre_username"
+            android:key="do_name"
+            android:summary="@string/pre_username_text"
+            android:dialogTitle="@string/pre_username_title"
+            app:iconSpaceReserved="false"
+            android:defaultValue="user"
+            />
+
+        <ListPreference
+            android:entries="@array/audio_size"
+            android:title="@string/pre_sampling_rate"
+            android:key="do_audio_size"
+            android:summary="@string/pre_sampling_rate_text"
+            android:dialogTitle="@string/pre_sampling_rate_title"
+            android:entryValues="@array/audio_size_values"
+            app:iconSpaceReserved="false"
+            android:defaultValue="48000"/>
+
+        <EditTextPreference
+            android:title="@string/pre_buffer_size"
+            android:key="do_chunk"
+            android:summary="@string/pre_buffer_size_text"
+            android:dialogTitle="@string/pre_buffer_size_title"
+            app:iconSpaceReserved="false"
+            android:defaultValue="1024"/>
+
+        <EditTextPreference
+            android:title="@string/pre_server_port"
+            android:key="do_port"
+            android:summary="@string/pre_server_port_text"
+            android:dialogTitle="@string/pre_server_port_title"
+            app:iconSpaceReserved="false"
+            android:defaultValue="5000"/>
+
+        <ListPreference
+            android:entries="@array/audio_channels"
+            android:title="@string/pre_sound_channel"
+            android:key="do_channels"
+            android:summary="@string/pre_sound_channel_text"
+            android:dialogTitle="@string/pre_sound_channel_title"
+            android:entryValues="@array/audio_channels_values"
+            app:iconSpaceReserved="false"
+            android:defaultValue="2"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pre_software_setup"
+        android:key="category_comm_preferences"
+        app:iconSpaceReserved="false">
+        <CheckBoxPreference
+            android:title="@string/pre_startup_connection"
+            android:key="do_connectonstart"
+            android:summary="@string/pre_startup_connection_text"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="@string/pre_auto_reconnect"
+            android:key="do_autoreconnect"
+            android:summary="@string/pre_auto_reconnect_text"
+            app:iconSpaceReserved="false"
+            android:dependency="do_connectonstart"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="@string/pre_auto_reconnect_settings_change"
+            android:key="do_autoreconnectsettingschange"
+            android:summary="@string/pre_auto_reconnect_settings_change_text"
+            app:iconSpaceReserved="false"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:title="@string/pre_server_full_text"
+            android:key="do_serverfulltext"
+            android:summary="@string/pre_server_full_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="@string/pre_disable_sounds"
+            android:key="do_disablesounds"
+            android:summary="@string/pre_disable_sounds_text"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pre_system_setup"
+        android:key="category_device_preferences"
+        app:iconSpaceReserved="false">
+        <CheckBoxPreference
+            android:title="@string/pre_wakelock"
+            android:key="do_wakelock"
+            android:summary="@string/pre_wakelock_text"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+        <CheckBoxPreference
+            android:title="@string/pre_wakelock_screen"
+            android:key="do_sdwakelock"
+            android:summary=""
+            android:dependency="do_wakelock"
+            app:iconSpaceReserved="false" />
+        <CheckBoxPreference
+            android:title="@string/pre_giveOtherPlay"
+            android:key="do_giveOtherPlay"
+            android:summary=""
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

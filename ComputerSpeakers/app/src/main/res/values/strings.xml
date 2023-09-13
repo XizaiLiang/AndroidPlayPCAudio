@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">ComputerSpeakers</string>
+    <string name="main_startAudio">开始接收音频流</string>
+    <string name="main_disconnect_icon">断开连接图标</string>
+    <string name="main_server_ip">Server:</string>
+    <string name="main_Prompt_words">ip地址</string>
+    <string name="mian_stp_audio">停止接收音频流</string>
+    <string name="main_set_up">设置</string>
+
+    <string name="pre_getting_started">开始</string>
+    <string name="pre_setup_information">设置信息</string>
+    <string name="pre_setup_information_text">如何在电脑上安装服务器，故障排除提示，以及包括隐私政策在内的一般帮助（打开网页）</string>
+
+    <string name="pre_connection_configuration">连接配置</string>
+    <string name="pre_username">连接用户名</string>
+    <string name="pre_username_text">连接到主机的用户名</string>
+    <string name="pre_username_title">设置用户名</string>
+    <string name="pre_sampling_rate">采样率</string>
+    <string name="pre_sampling_rate_text">重采样设置，可降低采样率达到减少传输数据。windows不插音频设备时默认使用48k。</string>
+    <string name="pre_sampling_rate_title">设置音频采样率</string>
+    <string name="pre_buffer_size">每个缓冲区的帧数</string>
+    <string name="pre_buffer_size_text">服务器音频每帧采样样本数量。默认1024</string>
+    <string name="pre_buffer_size_title">设置每个缓冲区的帧数</string>
+    <string name="pre_server_port">服务器端口</string>
+    <string name="pre_server_port_text">必须与服务端端口号相匹配</string>
+    <string name="pre_server_port_title">设置服务器端口</string>
+    <string name="pre_sound_channel">声道</string>
+    <string name="pre_sound_channel_text">播放声音时候采用立体声或单声道，默认立体声</string>
+    <string name="pre_sound_channel_title">设置音频通道</string>
+
+
+    <string name="pre_software_setup">软件设置</string>
+
+    <string name="pre_startup_connection">启动时连接</string>
+    <string name="pre_startup_connection_text">启动该软件后立刻连接到服务器</string>
+
+    <string name="pre_auto_reconnect">自动重连</string>
+    <string name="pre_auto_reconnect_text">当连接断开后自动重新连接</string>
+
+    <string name="pre_auto_reconnect_settings_change">设置更改时自动重新连接</string>
+    <string name="pre_auto_reconnect_settings_change_text">如果设置更改需要，请断开连接并重新连接</string>
+
+    <string name="pre_server_full_text">输入alpha服务器名称</string>
+    <string name="pre_server_full_summary">将屏幕键盘从数字切换为字母数字，以输入任何主机名，而不仅仅是IP地址。如果您在网络上运行DNS，请使用。</string>
+
+    <string name="pre_disable_sounds">禁用通知声音</string>
+    <string name="pre_disable_sounds_text">禁用连接丢失声音</string>
+
+
+    <string name="pre_system_setup">系统设置</string>
+
+    <string name="pre_wakelock">唤醒锁</string>
+    <string name="pre_wakelock_text">在连接或尝试连接时防止设备睡眠（推荐）请把省电策略关闭</string>
+    
+    <string name="pre_wakelock_screen">保持屏幕亮起</string>
+    <string name="pre_giveOtherPlay">不与其他应用同时播放</string>
+
+</resources>
